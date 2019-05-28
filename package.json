@@ -1,0 +1,16 @@
+{
+  "name": "spaced",
+  "version": "0.0.1",
+  "description": "Multiplayer Asteroids",
+  "scripts": {
+    "serve": "cake build && node game/server.js",
+    "build": "cake build"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.4.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  }
+}
